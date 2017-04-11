@@ -235,7 +235,7 @@ ul.list-style-none {
   }
 }
 #top {
-  background: #555555;
+  background: #39586e;
   color: #eeeeee;
   padding: 10px 0;
 }
@@ -288,6 +288,9 @@ ul.list-style-none {
   font-weight: 700;
   letter-spacing: 0.10em;
 }
+#top .login a:hover {
+  color: #4460ae;
+}
 @media (max-width: 767px) {
   #top .login {
     float: left;
@@ -304,6 +307,9 @@ ul.list-style-none {
 .navbar {
   border: none;
 }
+.navbar .dropdown:hover .dropdown-menu{
+  display: block;
+}
 .navbar ul.nav > li > a {
   text-transform: uppercase;
   text-decoration: underline;
@@ -312,6 +318,7 @@ ul.list-style-none {
   border-top: solid 5px transparent;
 }
 .navbar ul.nav > li > a:hover {
+  text-decoration: none;
   border-top: solid 5px #38a7bb;
 }
 .navbar ul.nav > li.active > a,
