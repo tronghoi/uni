@@ -2648,7 +2648,7 @@ fieldset[disabled] .btn-template-primary.active {
   border: solid 1px #eeeeee;
 }
 @media (max-width: 991px) {
-  #carousel-example-generic{display: none}
+    #carousel-example-generic{display: none}
   #style-switch-button {
     display: none;
   }
@@ -2656,6 +2656,11 @@ fieldset[disabled] .btn-template-primary.active {
     display: none;
   }
 }
+/*fa favicon*/
+
+
+
+
 /* Original Boostrap template overwrite */
 /* breadcrumbs */
 .breadcrumb {
