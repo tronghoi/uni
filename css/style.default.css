@@ -1771,6 +1771,7 @@ fieldset[disabled] .btn-template-primary.active {
   background: #555555;
 }
 .bar.background-white {
+  border-top: 1px solid #00abef;
   background: #fff;
 }
 .bar.background-image-fixed-1 {
